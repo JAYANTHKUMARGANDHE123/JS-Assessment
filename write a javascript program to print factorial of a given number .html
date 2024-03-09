@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>write a javascript program to print factorial of a given number</p>
+  <script>
+   num=parseInt(prompt("Enter a number")),fact=1;
+   if(num<0){
+    document.write(num+"is not a valid number")
+   }
+   else{
+    for(i=1;i<=num;i++){
+        fact*=i;
+    }
+  document.write("Factorial of"+num+"is"+fact);
+} 
+  </script>  
+</body>
+</html>
