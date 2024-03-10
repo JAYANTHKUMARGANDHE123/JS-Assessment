@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>write a javascript program to print following pattern</title>
 </head>
 <body>
-   <h1>write a javascript program to print following pattern</h1> 
+   <p>write a javascript program to print following pattern</p> 
 <p>
 11 <br>
 12 13<br>
@@ -15,13 +15,13 @@
 </p>
 <script>
     let k=11;
-for(i=1;i<=4;i++){
-    for(j=1;j<=i;j++){
-        document.write(k+"&nbsp;");
-        if(i==j){
+for(i=1;i<=4;i++){ //rows  1 2 3 4 5 -end of loop
+    for(j=1;j<=i;j++){ //cols 1 1 2 1 2 3 1 2 3 4
+        document.write(k+"&nbsp;");// 11  12 13 14 15 16 17 18 19 20
+        if(i==j){ 
             document.write("<br>")
         }
-        k++
+        k++ // 12  13 14 15 16 17 18 19 20 
     }
 
 }

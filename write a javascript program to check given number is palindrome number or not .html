@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>write a javascript program to check given number is palindrome number or not</title>
 </head>
 <body>
     <p>write a javascript program to check given number is palindrome number or not</p>
 <script>
-    var num=prompt("enter a number");
-    temp = num;
-    var sum="";
-    while(num!=0){
-        rem=num%10;
-        sum+=rem;
-        num=parseInt(num/10);
+    var num=prompt("enter a number");// 120
+    temp = num;//storage  temp=120
+    var sum="";//to access perfect divisibles of ten.
+    while(num!=0){ // 120 12  1  0-end of loop
+        rem=num%10;// 0    2  1
+        sum+=rem;// 0     02  021
+        num=parseInt(num/10);//12 1 0
     }
-    if(temp==sum){
-        document.write(temp+"is a Palindrome");
+    if(temp==sum){// 120==021
+        document.write(temp+"is a Palindrome");// dad mom bob nursesrun
     }
     else{
         document.write(temp+"is not a palindrome");

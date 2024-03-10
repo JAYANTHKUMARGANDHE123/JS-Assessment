@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sum of factorials of 1 to 10</title>
 </head>
 <body>
+<p>Sum of factorials of 1 to 10</p>
     <script>
-        let fact=1;
-        count=0;
-        for(i=1;i<=10;i++){
-            fact=fact*i;
-            count+=fact;
+        let fact=1; //let till the loop ends ; var fact =1;
+        sum=0;
+        for(i=1;i<=10;i++){ // for(inital value;maximum value;incre/dec)
+            fact=fact*i; // 1 2*1 3*2*1 4*3*2*1 
+            sum+=fact; 
         }
-        document.write(count)
+        document.write(sum)
     </script>
 </body>
 </html>

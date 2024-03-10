@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>write a javascript program to print sum of digits in a number.</title>
 </head>
 <body>
+<p>write a javascript program to print sum of digits in a number.</p>
     <script>
         var num=parseInt(prompt("Enter a number"));
         var sum=0;
-        while(num!=0){
-            rem=num%10;
-            sum+=rem;
-            num=parseInt(num/10);
+        while(num!=0){ // 143 14  1 0- end of loop
+            rem=num%10; // 3   4  1 
+            sum+=rem;   // 3   7  8
+            num=parseInt(num/10);// 14 1 0
         }
-        document.write(sum)
+        document.write(sum) // 8
     </script>
 </body>
 </html>

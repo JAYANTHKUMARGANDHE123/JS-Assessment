@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>write a javascript program to print factorial of a given number</title>
 </head>
 <body>
     <p>write a javascript program to print factorial of a given number</p>
   <script>
-   num=parseInt(prompt("Enter a number")),fact=1;
-   if(num<0){
-    document.write(num+"is not a valid number")
+   num=parseInt(prompt("Enter a number")),fact=1;//4
+   if(num<0){// -1
+    document.write(num+"is not a valid number")//invalid
    }
-   else{
-    for(i=1;i<=num;i++){
-        fact*=i;
+   else{ // num>=0 4 
+    for(i=1;i<=num;i++){ //(i=1;i<=4;i++)
+        fact*=i; // 1  2  6  24 
     }
-  document.write("Factorial of"+num+"is"+fact);
+  document.write("Factorial of"+num+"is"+fact);// 24
 } 
   </script>  
 </body>

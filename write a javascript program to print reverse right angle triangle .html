@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>write a javascript program to print following pattern</title>
 </head>
 <body>
     <p>write a javascript program to print 
 <br>
-        ***** <br>
-        ****  <br>
-        ***   <br> 
-        **    <br>
+        * * * * * <br>
+        * * * *  <br>
+        * * *   <br> 
+        * *    <br>
         *     </p>
 <script>
-    for(i=5;i>=1;i--){
-        for(j=1;j<=i;j++){
-         document.write("*"+"&nbsp;")
-        }
-        document.write("<br>")
-    }
-</script>
+    for(i=5;i>=1;i--){ // 5 4 3 2 1 0- end of loop.
+        for(j=1;j<=i;j++){ // 5 4 3 2 1 // 4 3 2 1 // 3 2 1 // 2 1 // 1
+         document.write("*"+"&nbsp;") // * * * * *
+        }                             // * * * *
+        document.write("<br>")        // * * *   
+    }                                 // * *
+                                      // *
+</script>                             
 </body>
 </html>

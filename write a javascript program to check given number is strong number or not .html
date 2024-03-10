@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>write a javascript program to check given number is strong number or not</title>
 </head>
 <body>
     <p>write a javascript program to check given number is strong number or not</p>
 <script>
-    var num =parseInt(prompt("Enter a number"));
-    var sum =0,temp=num,rem;
-    if(num!=0){
-        while(num!=0){
-            rem=num%10;
-            let fact =1;
-            for(i=1;i<=rem;i++){
-                fact=fact*i
+    var num =parseInt(prompt("Enter a number"));//145
+    var sum =0,temp=num,rem;//temp=145
+    if(num!=0){ //145
+        while(num!=0){ //145 14  1 0 -end of loop
+            rem=num%10;// 5   4  1
+            let fact =1;//1  120  144 145
+            for(i=1;i<=rem;i++){  //5  4  1
+                fact=fact*i //1*2 2*3 6*4 24*5 120 //120 /itr-2  1*2 2*3 6*4 24//24//itr-3 1*1//1
             }
-            sum+=fact;
-            num=parseInt(num/10);
+            sum+=fact;//0+120+24+1
+            num=parseInt(num/10);//14  1 0
         }
-        if(sum==temp){
+        if(sum==temp){//145 ==145 T
             document.write(temp+"is a strong number")
         }
         else{
@@ -28,7 +28,7 @@
         }
     }
     else{
-        document.write("unable to calculate for"+"temp")
+        document.write("unable to calculate for"+temp)
     }
 </script>
 </body>

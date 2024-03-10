@@ -1,33 +1,33 @@
-1.  write a javascript program to check print sum of factorials of 1 to 10 numbers
+1.  write a javascript program to check print sum of factorials of 1 to 10 numbers - done.
 
-2. write a javascript program to print following pattern
+2. write a javascript program to print following pattern - done
 
 11
 12 13
 14 15 16
 17 18 19 20
 
-3. write a javascript program to print sum of prime numbers from 1 to 50
+3. write a javascript program to print sum of prime numbers from 1 to 50 - done 
 
-4.  write a javascript program to print sum of digits in a number
+4.  write a javascript program to print sum of digits in a number - done
 
-5. write a javascript program to print biggest of 4 numbers 
+5. write a javascript program to print biggest of 4 numbers - done.
 
-6. write a javascript program to print following pattern
+6. write a javascript program to print following pattern - done
 
 1 2 3 4
 5 6 7 8
 9 10 11 12
 13 14 15 16
 
-7. write a javascript program to print following pattern 
+7. write a javascript program to print following pattern - done
 
 1 2 3 4
 1 2 3 4
 1 2 3 4
 1 2 3 4
 
-8. write a javascript program to print follwoing pattern
+8. write a javascript program to print follwoing pattern - done
 
 5 4 3 2 1
 4 3 2 1
@@ -35,13 +35,13 @@
 2 1
 1
 
-9. write a javascript program to print sum of leap years between 2000 and 2100
+9. write a javascript program to print sum of leap years between 2000 and 2100 - done
 
-10. write a javascript program to print prime numbers between 1 to 100
+10. write a javascript program to print prime numbers between 1 to 100 - done
 
 
 
-11. write a javascript program to print 
+11. write a javascript program to print  - done
 
 *****
 ****
@@ -49,22 +49,23 @@
 **
 *
 
-12. write a javascript program to print sum of odd numbers from 1 to 100
+12. write a javascript program to print sum of odd numbers from 1 to 100 - done 
 
-13. write a javascript program to print sum of even numbers from 100 to 200
+13. write a javascript program to print sum of even numbers from 100 to 200 - done
 
-14. write a javascript program to check given number is armstrong number or not
+14. write a javascript program to check given number is armstrong number or not - done
 
-15. write a javascript program to check given number is strong number or not
+15. write a javascript program to check given number is strong number or not - done
 
-16. write a javascript program to check given number is palindrome number or not
+16. write a javascript program to check given number is palindrome number or not - done
 
-17. write a javascript program to count number of digits in a number
+17. write a javascript program to count number of digits in a number - done
 
-18. write a javascript program to print reverse of a number
-19. write a javascript program to print factorial of a given number
+18. write a javascript program to print reverse of a number - done
 
-20. write a javascript program to  print grade of the student by reading marks from the user
+19. write a javascript program to print factorial of a given number - done
+
+20. write a javascript program to  print grade of the student by reading marks from the user - done
 
 
 

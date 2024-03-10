@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Biggest of 4 numbers</title>
 </head>
 <body>
+<p>Biggest of 4 numbers</p>
     <script>
-        var a=parseInt(prompt("Enter a number")),b=parseInt(prompt("Enter a number")),c=parseInt(prompt("Enter a number")),d=parseInt(prompt("Enter a number"));
+        var a=parseInt(prompt("Enter a number a="));
+        var b=parseInt(prompt("Enter a number b="));
+        var c=parseInt(prompt("Enter a number c="));
+        var d=parseInt(prompt("Enter a number d="));
         document.write(a>b&&a>c&&a>d?a:(b>c&&b>d?b:(c>d? c:d))+"is the biggest.");
     </script>
 </body>
